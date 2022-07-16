@@ -45,7 +45,7 @@ workspace "run-timer"
 	filter "Release"
 		defines "NDEBUG"
 		optimize "full"
-		runtime "release"
+		runtime "debug"
 		symbols "off"
 
 	filter "Debug"
